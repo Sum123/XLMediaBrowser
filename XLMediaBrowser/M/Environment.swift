@@ -8,25 +8,25 @@
 
 import UIKit
 
-var screenW: CGFloat {
+public var screenW: CGFloat {
     return UIScreen.main.bounds.width
 }
 
-var screenH: CGFloat {
+public var screenH: CGFloat {
     return UIScreen.main.bounds.height
 }
 
-enum MediaBrowserTransitionType {
+public enum MediaBrowserTransitionType {
     case present
     case dismiss
 }
 
-enum MediaType {
+public enum MediaType {
     case img
     case video
 }
 
-enum PageNumType {
+public enum PageNumType {
     case round
     case label
 }
