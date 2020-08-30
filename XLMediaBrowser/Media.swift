@@ -12,10 +12,10 @@ import SDWebImage
 public class Media: NSObject {
     
     /// 媒体类型
-    var type: MediaType = .img
+    public var type: MediaType = .img
     
     /// 低质量的url
-    var lowUrl: String = "" {
+    public var lowUrl: String = "" {
         didSet {
             let wh = min(screenW, screenH)
             endFrame = CGRect(x: (screenW - wh) * 0.5, y: (screenH - wh) * 0.5, width: wh, height: wh)
@@ -38,7 +38,7 @@ public class Media: NSObject {
     }
     
     /// 低质量的image
-    var lowImage: UIImage? = nil {
+    public var lowImage: UIImage? = nil {
         didSet {
             guard let img = lowImage else { return }
             
@@ -64,21 +64,21 @@ public class Media: NSObject {
     }
     
     /// 高质量的url
-    var highUrl: String = ""
+    public var highUrl: String = ""
     
     /// 高质量的image
-    var highImage: UIImage? = nil
+    public var highImage: UIImage? = nil
     
     /// 媒体宽 服务器数据
-    var mediaW: CGFloat = 100
+    public var mediaW: CGFloat = 100
     
     /// 媒体高 服务器数据
-    var mediaH: CGFloat = 100
+    public var mediaH: CGFloat = 100
     
     /// 来源视图中的view相对于window的frame
-    var sourceFrame: CGRect = .zero
+    public var sourceFrame: CGRect = .zero
     
     /// 最终视图中的view相对于window的frame
-    var endFrame: CGRect = .zero
+    public var endFrame: CGRect = .zero
     
 }
