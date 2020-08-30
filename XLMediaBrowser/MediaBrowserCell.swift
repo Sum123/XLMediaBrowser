@@ -147,7 +147,7 @@ class MediaBrowserCell: UICollectionViewCell {
         v.minimumZoomScale = minScale
         v.showsVerticalScrollIndicator = false
         v.showsHorizontalScrollIndicator = false
-        v.decelerationRate = .fast
+//        v.decelerationRate = .fast
         v.delegate = self
         v.isMultipleTouchEnabled = true
         v.scrollsToTop = false
