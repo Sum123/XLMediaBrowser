@@ -1,0 +1,31 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - FLAnimatedImage (1.0.12)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - SDWebImageFLPlugin (0.4.0):
+    - FLAnimatedImage (>= 1.0.11)
+    - SDWebImage/Core (~> 5.6)
+
+DEPENDENCIES:
+  - DACircularProgress
+  - SDWebImage
+  - SDWebImageFLPlugin
+
+SPEC REPOS:
+  trunk:
+    - DACircularProgress
+    - FLAnimatedImage
+    - SDWebImage
+    - SDWebImageFLPlugin
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  SDWebImageFLPlugin: 6c2295fb1242d44467c6c87dc5db6b0a13228fd8
+
+PODFILE CHECKSUM: 62b9a03c8c3ac537edbf5905603cf6235a761fd3
+
+COCOAPODS: 1.9.3
