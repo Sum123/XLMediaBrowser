@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Sum123/XLMediaBrowser.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  spec.source_files  = "XLMediaBrowser/XLMediaBrowser/*.{swift}"
+  spec.source_files  = "XLMediaBrowser/*.{swift}"
   spec.dependency "SDWebImage"
   spec.dependency "SDWebImageFLPlugin"
   # spec.dependency 'SDWebImageWebPCoder'

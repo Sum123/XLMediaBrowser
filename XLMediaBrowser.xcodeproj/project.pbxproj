@@ -101,9 +101,13 @@
 			children = (
 				55670FC724FBB62600D29EA1 /* XLMediaBrowser.h */,
 				55670FE924FBBDE400D29EA1 /* MediaBrowserManager.swift */,
-				55670FE824FBBDC400D29EA1 /* V */,
-				55670FE724FBBDC100D29EA1 /* M */,
-				55670FE624FBBD9600D29EA1 /* C */,
+				55670FF524FBBDFC00D29EA1 /* MediaBrowserCell.swift */,
+				55670FEF24FBBDF600D29EA1 /* Environment.swift */,
+				55670FED24FBBDF600D29EA1 /* Media.swift */,
+				55670FEE24FBBDF600D29EA1 /* MediaBrowserInteractive.swift */,
+				55670FF024FBBDF600D29EA1 /* MediaBrowserTransition.swift */,
+				55670FF624FBBDFC00D29EA1 /* MeidaContentView.swift */,
+				55670FEB24FBBDEF00D29EA1 /* MediaBrowserController.swift */,
 				55670FC824FBB62600D29EA1 /* Info.plist */,
 			);
 			path = XLMediaBrowser;
@@ -116,34 +120,6 @@
 				55670FD424FBB62600D29EA1 /* Info.plist */,
 			);
 			path = XLMediaBrowserTests;
-			sourceTree = "<group>";
-		};
-		55670FE624FBBD9600D29EA1 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				55670FEB24FBBDEF00D29EA1 /* MediaBrowserController.swift */,
-			);
-			path = C;
-			sourceTree = "<group>";
-		};
-		55670FE724FBBDC100D29EA1 /* M */ = {
-			isa = PBXGroup;
-			children = (
-				55670FEF24FBBDF600D29EA1 /* Environment.swift */,
-				55670FED24FBBDF600D29EA1 /* Media.swift */,
-				55670FEE24FBBDF600D29EA1 /* MediaBrowserInteractive.swift */,
-				55670FF024FBBDF600D29EA1 /* MediaBrowserTransition.swift */,
-			);
-			path = M;
-			sourceTree = "<group>";
-		};
-		55670FE824FBBDC400D29EA1 /* V */ = {
-			isa = PBXGroup;
-			children = (
-				55670FF524FBBDFC00D29EA1 /* MediaBrowserCell.swift */,
-				55670FF624FBBDFC00D29EA1 /* MeidaContentView.swift */,
-			);
-			path = V;
 			sourceTree = "<group>";
 		};
 		7758C590D6CF597FEAF59DDF /* Frameworks */ = {
